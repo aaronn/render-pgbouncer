@@ -2,7 +2,7 @@ services:
 - type: pserv
   name: pgbouncer
   env: docker
-  plan: standard
+  plan: starter plus
   repo: https://github.com/renderinc/docker-pgbouncer
   envVars:
   - key: DATABASE_URL
